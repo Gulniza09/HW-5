@@ -1,0 +1,47 @@
+* {
+	box-sizing: border-box;
+}
+
+.project-macarons__login,
+textarea {
+	display: block;
+	border-radius: 5px;
+	font-size: 23px;
+	background: white;
+	width: 100%;
+	border: 0;
+	/* padding: 10px 10px; */
+	margin: 15px -10px;
+}
+p {
+	font-family: 'Pacifico', handwriting;
+	font-size: 48px;
+	line-height: 1.5em;
+}
+button {
+	border-radius: 20px;
+	border: 1px solid hsl(290, 24%, 66%);
+	background-color: #bb8cbb;
+	color: #ffffff;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 12px 45px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	transition: transform 80ms ease-in;
+    margin-top: 30px;
+}
+
+button:active {
+	transform: scale(0.95);
+}
+
+button:focus {
+	outline: none;
+}
+
+button.ghost {
+	background-color: transparent;
+	border-color: #ffffff;
+}
+
